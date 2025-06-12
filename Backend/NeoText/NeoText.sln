@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.36105.23 d17.13
+VisualStudioVersion = 17.13.36105.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoText.Server", "NeoText.Server\NeoText.Server.csproj", "{8B8C7E0F-A79C-4072-BE39-2664F82D50AF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoText.Domain", "NeoText.Domain\NeoText.Domain.csproj", "{704544A1-2ADA-4B28-BBBB-583A56F86D92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoText", "NeoText\NeoText.csproj", "{6E544C02-C787-4FCA-A280-F212F796FF9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoText.Database", "NeoText.Database\NeoText.Database.csproj", "{76FB6B70-0FC2-4CAC-ADD7-5FBB893346CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{704544A1-2ADA-4B28-BBBB-583A56F86D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{704544A1-2ADA-4B28-BBBB-583A56F86D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{704544A1-2ADA-4B28-BBBB-583A56F86D92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E544C02-C787-4FCA-A280-F212F796FF9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E544C02-C787-4FCA-A280-F212F796FF9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E544C02-C787-4FCA-A280-F212F796FF9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E544C02-C787-4FCA-A280-F212F796FF9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76FB6B70-0FC2-4CAC-ADD7-5FBB893346CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76FB6B70-0FC2-4CAC-ADD7-5FBB893346CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76FB6B70-0FC2-4CAC-ADD7-5FBB893346CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76FB6B70-0FC2-4CAC-ADD7-5FBB893346CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

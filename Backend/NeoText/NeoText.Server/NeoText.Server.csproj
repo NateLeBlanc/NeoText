@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\NeoText.Domain\NeoText.Domain.csproj" />
+    <ProjectReference Include="..\NeoText\NeoText.csproj" />
   </ItemGroup>
 
 </Project>
